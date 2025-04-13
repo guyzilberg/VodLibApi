@@ -364,3 +364,4 @@ FodyWeavers.xsd
 /.editorconfig
 /VodLibApi.sln
 /VodLibSql/VodLibSql.sqlproj
+/ConsoleApp1/ConsoleApp1.csproj
