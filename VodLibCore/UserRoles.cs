@@ -4,7 +4,7 @@ using System.Text;
 
 namespace VodLibCore
 {
-    public enum UserRolesEnum
+    public enum UserRoles
     {
         User = 0x1,
         Admin = 0x2 ,

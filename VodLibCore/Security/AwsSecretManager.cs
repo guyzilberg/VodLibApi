@@ -1,12 +1,8 @@
 ﻿using Amazon.SecretsManager.Model;
 using Amazon.SecretsManager;
 using System;
-using System.Collections.Generic;
-using System.Text;
 using System.Threading.Tasks;
 using Amazon;
-using Amazon.SecretsManager;
-using Amazon.SecretsManager.Model;
 using Newtonsoft.Json;
 
 namespace VodLibCore.Security

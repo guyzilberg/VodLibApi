@@ -6,14 +6,5 @@ namespace VodLibCore
 {
     public class UserTester
     {
-        public static List<User> GetMockUsers()
-        {
-            var users = new List<User>()
-            {
-                new User("TestA", "passwordA"),
-                new User("TestB", "passwordB", UserRolesEnum.Admin)
-            };
-            return users;
-        }
     }
 }

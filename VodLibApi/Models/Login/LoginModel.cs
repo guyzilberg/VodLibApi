@@ -6,13 +6,13 @@ namespace VodLibApi.Models.Login
     public class LoginModel
     {
         [Required]
-        public string Username { get; set; }
+        public string Email { get; set; }
         [Required]
         public string Password { get; set; }
 
-        public User TryGetUser()
+        public User TryGetUser(IUserContext userContext, ILogger logger)
         {
-            return User.TryGetUserByUsernameAndPassword(Username, Password);
+            return User.TryGetUserByEmailAndPassword(Email, Password, userContext, logger);
         }
     }
 }
